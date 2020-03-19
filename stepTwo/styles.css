@@ -1,0 +1,106 @@
+body {
+    margin: 0em;
+    padding: 0em;
+    background-color: #428efd;
+}
+
+h2{
+    text-align: center;
+    background-color: blue;
+    background-image: linear-gradient(#008CBA, rgb(30, 1, 107));
+    color: rgb(236, 236, 236);
+    margin: 0em;
+}
+h1{
+    text-align:center;
+    color:#fff;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-bottom: 0px;
+}
+#quote_container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1024px;
+    align-content: center;
+    padding: 20px;
+    align-items: center;
+}
+p{
+    font-size: 2.0rem;
+    margin-bottom: 40px;
+    line-height: 3rem;
+    color:#fff;
+}
+.error{
+    color:#ff3800;
+    text-align:center;
+    text-shadow: -1px 1px #ffffff;
+}
+#message{
+    text-align:center;
+    color:#fff;
+}
+.quote{
+    color:azure;
+}
+form{
+    display: flex;
+}
+input[type='text']{
+    padding: 6px;
+    width: 140px;
+    order:0;
+    font-size: .775rem;
+    display: inline-block;
+    color: #000;
+    border-radius: 10px;
+    letter-spacing: .5px;
+    border: none;
+    text-align:center;
+}
+button{
+    margin-left: 20px;
+    margin-right:20px;
+    order:3;
+    min-width: 230px;
+    height: 45px;
+    font-size: .875rem;
+    display: inline-block;
+    color: #fff;
+    background-color: #0000ff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: .5px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+button:active, input[type='text']:active,
+button:focus, input[type='text']:focus{
+    outline: none;
+    border: none;
+}
+input[type='radio']{
+    margin-left:10px;
+    margin-top: 15px;
+}
+label{
+    margin-left:10px;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.made{
+    color: white;
+    margin-left: 35rem;
+}
